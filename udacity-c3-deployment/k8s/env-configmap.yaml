@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: project2imagefilter
+  AWS_PROFILE: default
+  AWS_REGION: us-east-2
+  JWT_SECRET: frommehebbbbbbbbbbbbbbbbbaaaaaa
+  POSTGRESS_DB: project2
+  POSTGRESS_HOST: project2.cicommqlcorq.us-east-2.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
